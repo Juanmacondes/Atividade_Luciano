@@ -1,0 +1,8 @@
+name: Ola Mundo
+on: push
+jobs:
+   saudacao:
+   runs-on: ubuntu-latest
+   step:
+   -name: Dizer Ola
+   run: echo "Ola, mundo! Meu primeiro Github Action."
