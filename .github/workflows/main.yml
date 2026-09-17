@@ -1,5 +1,5 @@
 name: Ola Mundo
-on: push
+on: workflow_dispatch
 jobs:
   Prazer:
     runs-on: ubuntu-latest
