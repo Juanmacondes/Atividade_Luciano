@@ -1,8 +1,8 @@
 name: Ola Mundo
 on: push
 jobs:
-   saudacao:
-   runs-on: ubuntu-latest
-   step:
-   -name: Dizer Ola
-   run: echo "Ola, mundo! Meu primeiro Github Action."
+  saudacao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dizer ola
+        run: echo "Ola, mundo! Meu primeiro GitHub Action."
