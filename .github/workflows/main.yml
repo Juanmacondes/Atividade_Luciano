@@ -7,4 +7,4 @@ jobs:
       - name: Dizer ola
         run: date
       - name: Dizer ola
-        run: echo "Ola, novamente, estou fazendo a segunda etapa do meu primeiro GitHub Action."
+        run: echo "Commit feito por ${{ github.actor }}"
