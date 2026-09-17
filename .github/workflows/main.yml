@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dizer ola
-        run: echo "Ola, mundo! Sou Juan Marcondes e esse é meu primeiro GitHub Action."
+        run: date
       - name: Dizer ola
         run: echo "Ola, novamente, estou fazendo a segunda etapa do meu primeiro GitHub Action."
